@@ -1,0 +1,36 @@
+.city_card_container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  padding: 30px 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .city_card_container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 30px 0;
+  }
+}
+.city_card_content {
+  background: #ffffff;
+  /* Shape/ Shape01 */
+  padding: 25px 25px;
+  border: 1px solid #10ac84;
+  box-shadow: 0px 10px 30px rgba(0, 115, 225, 0.06);
+  border-radius: 4px;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  margin: 20px;
+  cursor: pointer;
+}
+.city_count {
+  color: #10ac84;
+  font-weight: 600;
+  font-size: 18px;
+}
+.city_name {
+  font-size: 16px;
+  color: #2a2c30;
+  font-weight: 500;
+}
